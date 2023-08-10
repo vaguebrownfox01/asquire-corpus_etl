@@ -1,3 +1,4 @@
 *_DATA
 env_*
 report*/
+__pycache__/
