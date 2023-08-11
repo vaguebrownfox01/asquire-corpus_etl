@@ -13,8 +13,13 @@ class DataStaticInfo:
     META_SEP = "-"
     EXT_SEP = "."
 
-    BEGIN_k = "start"; END_k = "end"; LABEL_k = "label"
+    BEGIN_k = "start"; END_k = "end"; LABEL_k = "label"; DUR_k = "dur"
     ANOT_HEADER = [BEGIN_k, END_k, LABEL_k]
+
+    AGE_k = 'age'
+    GENDER_k = 'gender'
+    HEIGHT_k = 'height'
+    WEIGHT_k = 'weight'
 
     ANOT_LABELS = ['cc', 'ss', 'aa', 'yy', 'ee', 'ii', 'xx', 'zz', 'uu', 'oo', 'ii-n']
     ANOT_TAG = "anot--"
